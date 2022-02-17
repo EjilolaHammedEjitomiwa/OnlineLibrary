@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Digital Book</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="lore_ipsum_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sem odio, gravida eu ex ut, ultrices placerat quam. Phasellus et risus eget massa tristique tristique vitae quis ante. Suspendisse malesuada cursus est at mollis. Curabitur vitae massa dapibus, hendrerit neque at, tempus elit. Nulla tristique pretium felis ac finibus. Quisque consectetur eros ut dapibus congue. Praesent vitae varius arcu, ut pharetra mi. Integer vel tincidunt velit.
+Duis condimentum, velit ultrices lacinia varius, nisi enim vehicula magna, eu vulputate quam nisl nec est. Maecenas et blandit nisi. Phasellus pulvinar dolor sit amet placerat vestibulum. Etiam sodales imperdiet vulputate. Proin consectetur elit dolor, eget ornare metus tincidunt vel. Duis auctor lobortis aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent turpis metus, rutrum quis dolor vel, commodo egestas diam. Praesent vitae ex tincidunt urna placerat fringilla vel malesuada turpis. Maecenas gravida pellentesque dignissim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas elementum ipsum ex, sed posuere quam tristique sed.</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet. Aenean mattis nulla eget enim pharetra, sit amet commodo odio placerat. Proin vel egestas mauris, at mollis libero. Praesent euismod dignissim ipsum sed fermentum. Etiam ut metus felis.</string>
+</resources>
