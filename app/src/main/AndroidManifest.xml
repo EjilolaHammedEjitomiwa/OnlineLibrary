@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.kineticdevelopers.digitalbooks">
+    package="example.digitalbooks">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="28" />
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
 
@@ -12,52 +13,54 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:requestLegacyExternalStorage="true"
-        tools:targetApi="q"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:targetApi="q">
         <activity
-            android:name=".ui.CategoryProduct"
+            android:name="com.example.digitalbooks.ui.CartActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.BuyBookActivity"
+            android:name="com.example.digitalbooks.ui.CategoryProduct"
             android:exported="true" />
         <activity
-            android:name=".ui.AddBookActivity"
+            android:name="com.example.digitalbooks.ui.BuyBookActivity"
             android:exported="true" />
         <activity
-            android:name=".admin.AddCategory"
+            android:name="com.example.digitalbooks.ui.AddBookActivity"
             android:exported="true" />
         <activity
-            android:name=".admin.UploadSliderImages"
+            android:name="com.example.digitalbooks.admin.AddCategory"
             android:exported="true" />
         <activity
-            android:name=".admin.AdminActivity"
+            android:name="com.example.digitalbooks.admin.UploadSliderImages"
             android:exported="true" />
         <activity
-            android:name=".ui.LoginActivity"
+            android:name="com.example.digitalbooks.admin.AdminActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.SignupActivity"
+            android:name="com.example.digitalbooks.ui.LoginActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.OnBoardActivity"
+            android:name="com.example.digitalbooks.ui.SignupActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.digitalbooks.ui.OnBoardActivity"
             android:exported="true" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
         <activity
-            android:name=".ui.SplashScreen"
+            android:name="com.example.digitalbooks.ui.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.MainActivity"
+            android:name="com.example.digitalbooks.ui.MainActivity"
             android:exported="true" />
     </application>
 

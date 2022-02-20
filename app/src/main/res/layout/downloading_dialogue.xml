@@ -24,18 +24,18 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:gravity="center"
-            android:text="Downloading E-Book"
+            android:text="Downloading E-Book (s)"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/downloading_title"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:text="Downloading E-Book"
             android:textColor="@color/black"
             android:textSize="16sp" />
 
@@ -50,6 +50,11 @@
             android:visibility="gone"
             app:cornerRadius="10dp" />
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/downloading_downloadedBooksRecyclerView"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 

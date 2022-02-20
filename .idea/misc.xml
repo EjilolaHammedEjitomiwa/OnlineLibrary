@@ -3,11 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/GeoDeveloper/AndroidStudioProjects/DigitalBooks/app/src/main/res/layout/activity_category_product.xml" value="0.20625" />
-        <entry key="..\:/Users/GeoDeveloper/AndroidStudioProjects/DigitalBooks/app/src/main/res/layout/activity_login.xml" value="0.27291666666666664" />
-        <entry key="..\:/Users/GeoDeveloper/AndroidStudioProjects/DigitalBooks/app/src/main/res/layout/all_books_design.xml" value="0.20625" />
-        <entry key="..\:/Users/GeoDeveloper/AndroidStudioProjects/DigitalBooks/app/src/main/res/layout/fragment_home.xml" value="0.27291666666666664" />
-        <entry key="..\:/Users/GeoDeveloper/AndroidStudioProjects/DigitalBooks/app/src/main/res/menu/navigation_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/GeoDeveloper/AndroidStudioProjects/DigitalBooks/app/src/main/res/layout/activity_buy_book.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/GeoDeveloper/AndroidStudioProjects/DigitalBooks/app/src/main/res/layout/activity_cart.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/GeoDeveloper/AndroidStudioProjects/DigitalBooks/app/src/main/res/layout/activity_main.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/GeoDeveloper/AndroidStudioProjects/DigitalBooks/app/src/main/res/layout/activity_on_board.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/GeoDeveloper/AndroidStudioProjects/DigitalBooks/app/src/main/res/layout/activity_signup.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/GeoDeveloper/AndroidStudioProjects/DigitalBooks/app/src/main/res/layout/activity_splash_screen.xml" value="0.49212233549582945" />
+        <entry key="..\:/Users/GeoDeveloper/AndroidStudioProjects/DigitalBooks/app/src/main/res/layout/all_books_design.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/GeoDeveloper/AndroidStudioProjects/DigitalBooks/app/src/main/res/layout/cart_design.xml" value="0.26871794871794874" />
+        <entry key="..\:/Users/GeoDeveloper/AndroidStudioProjects/DigitalBooks/app/src/main/res/layout/downloaded_book_design.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/GeoDeveloper/AndroidStudioProjects/DigitalBooks/app/src/main/res/layout/downloading_dialogue.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/GeoDeveloper/AndroidStudioProjects/DigitalBooks/app/src/main/res/layout/fragment_profile.xml" value="0.27291666666666664" />
       </map>
     </option>
   </component>

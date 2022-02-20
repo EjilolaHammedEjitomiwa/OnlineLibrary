@@ -7,6 +7,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:996262203262:android:362b8d1764cb3835da6d2f",
+        "android_client_info": {
+          "package_name": "com.example.onlinelibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996262203262-29m06eq7bgesihlik8rtgcoptujnc4p4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Ca0byzJzuFl6VosYHf6_zz1dOIuafl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996262203262-29m06eq7bgesihlik8rtgcoptujnc4p4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:996262203262:android:9c7e38dc637090f8da6d2f",
         "android_client_info": {
           "package_name": "com.kineticdevelopers.digitalbooks"

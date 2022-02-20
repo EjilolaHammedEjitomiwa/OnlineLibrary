@@ -77,6 +77,18 @@
             android:padding="15dp"
             android:textSize="14sp" />
 
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signup_activity_confirmpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_bg"
+            android:fontFamily="@font/calling_code"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textSize="14sp" />
+
         <com.jaredrummler.materialspinner.MaterialSpinner
             android:id="@+id/signup_activity_selectRole"
             android:layout_width="match_parent"

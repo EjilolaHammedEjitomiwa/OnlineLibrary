@@ -53,6 +53,19 @@
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:id="@+id/buy_myCart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:focusable="false"
+                        android:fontFamily="@font/calling_code"
+                        android:padding="5dp"
+                        android:text="My Cart"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
                 </LinearLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -85,11 +98,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:textStyle="bold"
             android:fontFamily="@font/calling_code"
             android:text="The Garden of Eden in the dark"
             android:textColor="@color/black"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/buy_description"
@@ -110,20 +123,30 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/calling_code"
-            android:text="$200"
-            android:textStyle="bold"
             android:textColor="@color/black"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/buy_buyButton"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:text="Buy Now"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
-            android:layout_height="wrap_content" />
+            android:text="Buy Now" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buy_addToCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="Add to Cart" />
 
 
     </LinearLayout>

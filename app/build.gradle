@@ -12,11 +12,11 @@ android {
         configurations.all {
             resolutionStrategy { force 'androidx.core:core-ktx:1.6.0' }
         }
-        applicationId "com.kineticdevelopers.digitalbooks"
+        applicationId "com.example.onlinelibrary"
         minSdk 21
         targetSdk 31
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "2.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -52,16 +52,13 @@ dependencies {
     // Firebase
 
     implementation 'com.google.firebase:firebase-core:20.0.2'
-    implementation 'com.google.firebase:firebase-messaging:23.0.0'
     implementation 'com.google.firebase:firebase-auth:21.0.1'
-    implementation 'com.google.firebase:firebase-database-ktx:20.0.3'
     implementation 'com.google.firebase:firebase-firestore:24.0.1'
     implementation 'com.google.firebase:firebase-storage-ktx:20.0.0'
 
     // Others dependencies
     implementation 'com.github.GrenderG:Toasty:1.4.2'
     implementation 'com.github.mohammadatif:Animatoo:master'
-    implementation 'com.github.marlonlom:timeago:4.0.1'
     implementation 'com.github.bumptech.glide:glide:4.7.1'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
     implementation 'com.github.d-max:spots-dialog:1.1@aar'
@@ -73,6 +70,8 @@ dependencies {
     implementation "com.monnify.android-sdk:monnify-android-sdk:1.1.2"
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.24'
     implementation 'com.github.afreakyelf:Pdf-Viewer:v1.0.3'
+    implementation 'com.mikhaellopez:circularimageview:4.1.1'
+    implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
 }
 
 apply plugin: 'com.google.gms.google-services'

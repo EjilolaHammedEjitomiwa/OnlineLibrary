@@ -48,7 +48,7 @@
                         android:layout_weight="1"
                         android:fontFamily="@font/calling_code"
                         android:gravity="center"
-                        android:text="Digital Books"
+                        android:text="Online Library"
                         android:textColor="@color/white"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -59,6 +59,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
                         android:padding="5dp"
+                        android:visibility="gone"
                         android:text="Admin"
                         android:textColor="@color/white"
                         android:textSize="14sp" />

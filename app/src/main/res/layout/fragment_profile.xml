@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.ProfileFragment">
 
     <LinearLayout
@@ -50,6 +50,24 @@
 
         </LinearLayout>
 
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/icon_profile_image" />
+
+        <TextView
+            android:id="@+id/profile_changeProfileImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="Change Profile Image"
+            android:textColor="@color/black" />
+
 
         <TextView
             android:id="@+id/profile_name"
@@ -89,15 +107,41 @@
             android:id="@+id/profile_addBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="gone"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/calling_code"
             android:paddingStart="40dp"
-            app:cornerRadius="10dp"
             android:paddingEnd="40dp"
             android:text="Add New Book"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            android:visibility="gone"
+            app:cornerRadius="10dp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/profile_myCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="My Carts" />
+
+
+
+        <TextView
+            android:id="@+id/profile_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/calling_code"
+            android:padding="10dp"
+            android:text="Logout"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
